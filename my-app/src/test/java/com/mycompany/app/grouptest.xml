@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <groups>
+		<run>
+			<include name = "sanity"/>
+		</run>
+  </groups>
+  <test name="DemoQATest">
+    <classes>
+      <class name="TestNGPrograms.GroupTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="FacebookTest">
+  <classes>
+  <class name="TestNGPrograms.GroupTest1"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->
