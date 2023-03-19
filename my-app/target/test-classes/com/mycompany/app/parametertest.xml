@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+ <parameter name ="val1" value="20"/>
+ <parameter name="val2" value="10"/>
+ <parameter name="message" value="Normal Paramter Selected"/>
+  <test name="AddSubTest">
+    <classes>
+      <class name="TestNGPrograms.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="MultiplicationTest">
+  <classes>
+  <class name="TestNGPrograms.MultiplyTest"></class>
+  </classes>
+  </test>
+</suite> <!-- Suite -->
