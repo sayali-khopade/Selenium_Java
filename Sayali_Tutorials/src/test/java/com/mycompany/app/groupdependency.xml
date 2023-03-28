@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="BookStoteTest">
+  <groups>
+  		<dependencies>
+  			<group name="SignIn" depends-on="OpenBrowser"/>
+  			<group name="BookSearch" depends-on="SignIn"/>
+  			<group name="SignOut" depends-on="BookSearch"/>
+  		</dependencies>
+  	</groups>		
+    <classes>
+      <class name="TestNGPrograms.GroupDependencyTest">
+      <methods>
+      <exclude name="abc"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
