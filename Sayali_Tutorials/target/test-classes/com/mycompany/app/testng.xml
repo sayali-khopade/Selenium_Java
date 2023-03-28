@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Listener Suite">
+<listeners>
+	<listener class-name = "TestNGPrograms.ListenerTestNG"/>
+	<listener class-name = "TestNGPrograms.AnnotationTransformer"/>
+</listeners>	
+  <test name="Test">
+    <classes>
+      <class name="TestNGPrograms.TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
